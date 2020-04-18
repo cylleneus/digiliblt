@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title>Fragmentum Bobiense de nomine et pronomine</title>
+ <respStmt>
+     <resp>transcodifica di base da rtf a xml-tei</resp>
+     <name>piero colombo - step srl</name>
+    </respStmt>
+    <respStmt>
+     <resp>Testo </resp>
+     <name>Marinone, GL-CD</name>
+    </respStmt>
+    <respStmt>
+     <resp>Controllo marcatura XML-TEI</resp>
+     <name>Giulia Casalegno</name>
+    </respStmt>
+ </titleStmt>
+ <publicationStmt>
+ <publisher>digilibLT</publisher>
+ <pubPlace>Vercelli</pubPlace>
+ <date>2020</date>
+ <availability>
+ <p>
+ <ref target="http://creativecommons.org/licenses/by-nc-sa/3.0/it/" />
+ </p>
+ </availability>
+ <idno>dlt000202</idno>
+ </publicationStmt>
+ <sourceDesc>
+  <p>M. Passalacqua, <hi rend="italic">Tre testi grammaticali bobbiesi (GL V 555-566; 634-654; IV 207-216 Keil)</hi>, Roma 1984, 3-19.</p>
+ </sourceDesc>
+ </fileDesc>
+ <encodingDesc xmlns="http://www.tei-c.org/ns/1.0">
+	<projectDesc>
+ <p>digilibLT. Biblioteca digitale di testi latini tardoantichi.</p>
+ <p>Progetto diretto da Raffaella Tabacco (responsabile della ricerca) e Maurizio Lana</p>
+	</projectDesc>
+	<editorialDecl>
+ <p>
+ <hi rend="bold">Note di trascrizione e codifica del progetto digilibLT</hi>
+ </p>
+ <p>Abbiamo riportato solo il testo stabilito dall'edizione di riferimento non seguendone
+ l'impaginazione. Sono stati invece esclusi dalla digitalizzazione apparati, introduzioni, note 
+ e commenti e ogni altro contenuto redatto da editori moderni.</p>
+ <p>I testi sono stati sottoposti a doppia rilettura integrale per garantire la massima
+ correttezza di trascrizione</p>
+ <p>Abbiamo normalizzato le U maiuscole in V seguendo invece l'edizione di riferimento per la
+ distinzione u/v minuscole.</p>
+ <p>Non è stato normalizzato l'uso delle virgolette e dei trattini.</p>
+ <p>
+
+	Non è stata normalizzata la formattazione nell'intero
+ <hi rend="italic">corpus</hi>
+
+	: grassetto, corsivo, spaziatura espansa.
+ </p>
+ <p>
+
+	Sono stati normalizzati e marcati nel modo seguente i diacritici.
+ <lb />
+
+	espunzioni:
+ <![CDATA[<del>testo</del>]]>
+
+	si visualizza [testo]
+ <lb />
+
+	integrazioni:
+ <![CDATA[<supplied>testo</supplied> si visualizza <testo>]]>
+ <lb />
+ <hi rend="italic">loci desperati</hi>
+
+	:
+ <![CDATA[ <unclear>testo</unclear> o <unclear/> testo]]>
+
+	si visualizzano †testo† e †testo
+ <lb />
+
+	lacuna materiale:
+ <![CDATA[<gap/>]]>
+
+	si visualizza [...]
+ <lb />
+
+	lacuna integrata dagli editori:
+ <![CDATA[<supplied><gap/></supplied> si visualizza <...>]]>
+ </p>
+ <p>
+
+	Sono stati marcati i termini in lingua greca
+	<![CDATA[<foreign xml:lang="grc">αβγ</foreign>]]>
+ </p>
+ <p>
+
+	Ulteriori informazioni sulle norme di trascrizione e codifica su
+ <ref target="http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf">Note di trascrizione e codifica di testi latini tardoantichi [http://digiliblt.lett.unipmn.it/upload/docs/note_di_trascrizione_e_di_codifica.pdf]</ref>
+ </p>
+	</editorialDecl>
+</encodingDesc>
+ <profileDesc>
+ <langUsage>
+ <language ident="la">Latino</language>
+ </langUsage>
+ </profileDesc>
+ </teiHeader>
+ <text>
+ <body>
+ <head>Bobiensis de nomine et pronomine</head>
+ <div type="section">
+ <head>de nomine</head>
+ <p> <supplied><hi rend="bold">de nomine</hi></supplied> * nam legimus apud Lucretium et Vergilium <quote type="poetry">«terrai frugiferai»</quote> pro terrae frugiferae et <quote type="poetry">«aulai medio»</quote> pro aulae, item <quote type="poetry">«atque aurai simplicis ignem»</quote> pro aurae, item <quote type="poetry">«diues pictai uestis»</quote> pro pictae; apud Salustium quoque <quote type="prose">«duobus senati consultis»</quote> pro senatus; apud Terentium etiam <quote type="poetry">«nihil ornati, nihil tumulti»</quote>, item <quote type="poetry">«eius anui causa»</quote><milestone unit="page" n="p. 4 Passalacqua" /> pro ornatus tumultus anus; item apud Vergilium <quote type="poetry">«libra die somnique»</quote> pro diei, et apud Sallustium <quote type="prose">«dubitauit acie pars»</quote> pro aciei. sed haec omnia usurpando uindicauit sibi uetustas, posteritas explosit. </p>
+ <p> omnis etiam nominatiuus secundae declinationis us pura terminatus praecedente i littera genitiuum suum per duas i proferri faciat necesse est, ne minorem eum habeat numero syllabarum, cum uel superare genitiuus uel certe debeat adaequare nominatiuum suum, ut Horatius Horatii. similiter et neutra eiusdem declinationis quae i habuerint ante um geminabunt i litteram ob eandem rationem, ut folium folii otium otii tugurium tugurii peculium peculii, licet haec antiquitas per <foreign xml:lang="grc">ἀποκοπήν</foreign>, id est ablata i littera, enuntiauerit, ut ipse de se Horatius <quote type="poetry">«uatis Horati»</quote><quote type="poetry">«memorem sepulchro / scalpe querellam»</quote>, Vergilius <quote type="poetry">«pauperis et tuguri congestum <del>est</del>»</quote> item <quote type="poetry">«nec spes libertatis erat nec cura peculi»</quote>, item <quote type="poetry">«Parthenope studiis florentem ignobilis oti»</quote> et alibi <quote type="poetry">«hic tamen ille urbem Pataui sedesque locauit»</quote> pro Horatii tugurii peculii otii Patauii. </p>
+ <p>
+ <hi rend="bold">de uocatiuo singulari</hi>
+ </p>
+  <p>. per omnes declinationes in Latinis nominibus idem erit uocatiuus qui et nominatiuus, praeter Graeca, quae <milestone unit="page" n="p. 5 Passalacqua" /> et suis regulis seruiunt et Latinis, et praeter ea quae et secundae declinationis sunt et us terminantur. ea enim modo e modo i uocatiuum determinant suum: tunc i, cum us pura fuerit antecedente i littera et propria sint, non appellatiua (ablata enim eadem us syllaba faciunt uocatiuum ut Vergilius o Vergili, Terentius o Terenti); tunc e, cum ex his tribus uel unum defuerit, aut pura us, aut i antecedens, aut ipsa proprietas. excipitur unum filius: hoc enim, quamuis non sit proprium, tamen regulae propriorum inrepsit et uocatiuum suum fecit o fili, sicut Iulius o Iuli. </p>
+ <p>
+ <hi rend="bold">de genitiuo et datiuo pluralibus</hi>
+ </p>
+ <p>. prima declinatio et secunda genitiuum pluralem faciunt addita rum syllaba ablatiuo casui singulari, ut ab hoc poeta horum poetarum, ab hoc docto horum doctorum. hic tamen aliquotiens ornatus gratia uel metri necessitate uel consuetudine uetustatis per <foreign xml:lang="grc">συγκοπήν</foreign> pronuntiatur. in prima quidem declinatione in his quae composita sunt, ut caelicolarum caelicolum, omnigenarum omnigenum: Vergilius <quote type="poetry">«superoque nitentem / caelicolum regi mactabam in litore taurum»</quote>, idem <quote type="poetry">«omnigenumque deum monstra et latrator Anubis»</quote>; amforae etiam non amforarum, sed amforum: ita enim semper esse dicendum iam inde antiquitus obtinuit. in secunda uero declinatione tantum cum sint generis masculini, ut uirorum uirum <quote type="poetry">«arma uirum tabulaeque»</quote>, modiorum modium, sicut Tullius ubique, sestertiorum sestertium. </p>
+  <p> nam neque feminini generis neque neutri nomina placuit hoc modo enuntiari per genitiuum pluralem, ac maxime neutra, ne et hic fieret <foreign xml:lang="grc">συνέμπτωσις</foreign> nominatiui singularis et essent iam non triptota sed tetraptota, ut puta pro templorum templum, quod est nominatiui <milestone unit="page" n="p. 6 Passalacqua" /> et accusatiui et uocatiui. item utriusque supra dictae declinationis datiuus et ablatiuus pluralis is syllaba terminatur, exceptis quae ambiguitatis causa discernendae contra rationem recepta sunt: filiabus deabus equabus mulabus, item ambabus duabus <del>domo domorum domibus</del>. idque antiqui paene in omnibus faciebant, quae sub eadem finalitate in utroque genere nunc proferuntur, ut puta magni magnis et magnae magnis, pudici pudicis et pudicae pudicis, liberti libertis et libertae libertis. haec antiqui ob discernendum sexum in femininis magnabus pudicabus libertabus dicebant; sed a posteris illa tantum quae superius diximus in usu retenta sunt propter iuris necessitatem, quod omnem ambiguitatem auferre uoluit ex testamentis atque legatis. </p>
+ <p> tertiae declinationis ablatiuus singularis aut e aut i terminatur. </p>
+ <p> i si fuerit terminatus, addita um syllaba facit genitiuum pluralem, ut ab hoc facili horum facilium, forti fortium. e uero finito eodem casu modo e littera in um conuersa fiet genitiuus pluralis, ut ab hoc homine horum hominum, modo in i commutata et addita um, ut ab hoc colle horum collium, ab hoc monte horum montium. quando tamen e, quando i terminetur, technici uix distinxerunt, ideoque, ut ex illorum traditione colligere potui, quam potero paucis exponam. neutra omnia quae nominatiuo singulari a fuerint terminata et ablatiuo singulari e littera finiuntur eademque in um syllabam commutata facient genitiuum pluralem, ut poema poemate poematum, emblema emblemate emblematum, plasma plasmate plasmatum. </p>
+  <p> et sunt omnia huiusmodi Graeca, nullo alio genere sub hac finalitate in tertiam ueniente declinationem. qui autem poematorum emblematorum plasmatorum declinauerunt, uitiose et contra rationem locuti sunt, nec est eorum auctoritas admittenda, licet magni sint nominis. item omnia neutri generis e terminata et ablatiuo singulari i littera finientur et addita um syllaba facient genitiuum pluralem, ut monile monili monilium, sedile sedili sedilium, praesepe praesepi <milestone unit="page" n="p. 7 Passalacqua" /> praesepium. omnia nomina o terminata et ablatiuo singulari e finientur et eadem in u commutata et adsumpta m littera facient genitiuum pluralem, ut hic Cato ab hoc Catone horum Catonum, haec uirgo ab hac uirgine harum uirginum. nullum excipitur: nam pondo indeclinabile est; item octo non solum indeclinabile sed etiam numeri pluralis et nunc de singulari loquimur nominatiuo. i quae terminantur indeclinabilia siue aptota seu monoptota sunt eaque omnino duo tantum reperiuntur, frugi et nihili. et sunt generis omnis, hic et haec et hoc frugi, huius frugi, huic frugi, hunc et hanc et hoc frugi, similiter pluralia; eodemque exemplo hic et haec et hoc nihili. </p>
+ <p> omnia al terminata, si peregrina fuerint, et ablatiuo casu e finientur et ea in um conuersa facient genitiuum pluralem, ut hic Hannibal ab hoc Hannibale horum Hannibalum; si uero Latina et neutri generis, ablatiuum in i mittent et addita um syllaba genitiuum facient pluralem, ut hoc uectigal uectigali horum uectigalium, bidental bidentali bidentalium. </p>
+ <p> omnia el terminata, si peregrina fuerint, superiori regulae seruient; si uero Latina, neutri generis erunt et tantum numeri singularis et in obliquis geminabunt l litteram et ablatiuo e finientur, ut hic Necamel ab hoc Necamele horum Necamelum, hoc uero mel ab hoc melle, hoc fel ab hoc felle. mella tantum triptoton est; uicit propter auctoritatem Vergilianam: <quote type="poetry">«mellaque decussit foliis»</quote> et alibi <quote type="poetry">«mella fluant illi, ferat et rubus asper amomum»</quote>. </p>
+ <p> omnia il terminata masculina ablatiuum singularem in e mittunt eaque mutata in um syllabam faciunt genitiuum pluralem, ut hic pugil ab hoc pugile horum pugil<del>i</del>um, uigil uigile uigil<del>i</del>um. </p>
+  <p> feminina praeter unum Tanaquil nulla sunt; hoc tamen ipsum eandem regulam seruat. neutra quoque praeter unum nihil nulla sunt, quod tamen ipsum tres solos casus recipit, nominatiuum hoc nihil, <milestone unit="page" n="p. 8 Passalacqua" /> accusatiuum hoc nihil, uocatiuum o nihil. </p>
+ <p> ol nulla praeter unum sol terminantur, quod tamen ablatiuo casu singulari e finitur et ea in um conuersa genitiuum facit pluralem, si tamen in pluralem numerum flectendum hoc nomen est † sicut omnium nominum † nisi quando pro diebus ponitur, ut <quote type="poetry">«tres adeo incertos caeca caligine soles»</quote>. </p>
+ <p> omnia ul terminata ablatiuo casu singulari e finiuntur et ea in um syllabam conuersa faciunt genitiuum pluralem, ut hic consul ab hoc consule horum consulum. </p>
+ <p> omnia n littera terminata ablatiuum singularem in e mittunt et eadem in um conuersa faciunt genitiuum pluralem, ut hic paean ab hoc paeane horum paeanum, fulmine fulminum, Memnone Memnonum. delfin et Telchin Latini delfinus et Telchinus pronuntiare maluerunt, ne cogerentur delfinibus et Telchinibus dicere. </p>
+ <p> nam quod legimus <quote type="poetry">«delfinum caudas utero commissa luporum»</quote>, potest <foreign xml:lang="grc">συγκοπὴ</foreign> esse pro delfinorum, sicut <quote type="poetry">«arma uirum tabulaeque»</quote> pro uirorum. </p>
+ <p> omnia ar terminata masculina uel feminina ablatiuo casu singulari e finiuntur eaque in um conuersa faciunt genitiuum pluralem, ut hic Caesar ab hoc Caesare horum Caesarum. neutra uero ablatiuo singulari i finiuntur et addita um syllaba faciunt genitiuum pluralem, ut hoc lacunar ab hoc lacunari horum lacunarium, hoc puluinar ab hoc puluinari horum puluinarium. excipiuntur duo, far et lasar, quae masculinorum regulae seruiunt. </p>
+  <p> omnia er terminata, cum amissa e sine incremento genitiuum singularem per ris syllabam proferant, in hanc commutata finali syllaba casus nominatiui, ablatiuum singularem modo e finient eaque in um commutata facient genitiuum pluralem, ut hic pater huius patris ab hoc patre horum patrum, haec mater huius matris ab hac <milestone unit="page" n="p. 9 Passalacqua" /> matre harum matrum: modo i, et adsumpta um syllaba facient genitiuum pluralem, ut hic imber huius imbris ab hoc imbri horum imbrium, hic uter huius utris ab hoc utri horum utrium. cum uero er manente finali is adsciuerint syllabam, ablatiuum singularem e terminabunt eaque in um conuersa facient genitiuum pluralem, ut passer passeris passere passerum, anser anseris ansere anserum, pauper pauperis paupere pauperum, celer celeris celere celerum; sic et uber tuber giber et acer, quando arborem significat, licet quibusdam haec acerus nominatiuo dici debere placeat; sic et piper cicer aether siser aer et siqua similia. omnia etiam quae ex nominibus deriuata ter syllaba terminantur et feminina ex se faciunt tris syllaba terminata, ut hic equester haec equestris, campester campestris, paluster palustris, ablatiuo casu singulari i finiuntur et addita um syllaba faciunt genitiuum pluralem, ab hoc equestri horum equestrium. acer et alacer ablatiuo casu singulari i finiuntur et addita um facient genitiuum pluralem, ab hoc acri horum acrium, ab hoc alacri horum alacrium. licet hic alacris lectum sit: Vergilius <quote type="poetry">«ut uidet / Aenean, alacris palmas utrasque tetendit»</quote>; sed melius est, immo rectius, hic alacer et haec alacris, ut hic acer et haec acris. inde enim etiam neutra hoc acre et hoc alacre sicut campester campestris campestre, equester equestris equestre. praeterea etiam superlatiui gradus regula hunc exigit nominatiuum, qui detractis syllabis ultimis duabus ad positiuum redit, ut acerrimus acer, sicut asperrimus asper, nigerrimus niger, pauperrimus pauper. </p>
+ <p> Iuppiter, cum sit <foreign xml:lang="grc">ἑτερόκλιτον</foreign>, regulae minime subicietur, Iuppiter Iouis Ioui Iouem ab hoc Ioue. </p>
+  <p> omnia or terminata ablatiuo singulari e finiuntur eaque in um conuersa facient genitiuum pluralem, praetor praetore praetorum, actor actore actorum, Nestor Nestore Nestorum, arbor arbore arborum, cor corde cordum, marmor marmore marmorum, aequor <milestone unit="page" n="p. 10 Passalacqua" /> aequore aequorum; nihil excipitur. </p>
+ <p> omnia ur terminata eidem regulae seruiunt, ut turtur turture turturum, augur augure augurum, fur fure furum, murmur murmure murmurum. </p>
+ <p> omni as terminata ablatiuo casu singulari e finiuntur eaque in um conuersa faciunt genitiuum pluralem, seu Graeca fuerint seu Latina, seu masculina seu feminina, ut Thoas Thoante Thoantum, dorcas dorcade dorcadum, anas anate anatum, mas mare marum, as asse assum, pubertas pubertate pubertatum, Maecenas Maecenate Maecenatum. neutra duo sunt, fas et nefas, monoptota trium casuum tantum. excipitur unum uas, quod singulari tertiae declinationis est, plurali uero numero secundae, hoc uas huius uasis huic uasi hoc uas o uas ab hoc uase haec uasa horum uasorum his uasis haec uasa o uasa ab his uasis. </p>
+ <p> omnia es terminata, seu Graeca seu Latina sint, masculina aut feminina, ablatiuo casu singulari e finiuntur et ea in um conuersa faciunt genitiuum pluralem, ut paries pariete parietum, miles milite militum, heres herede heredum, Chremes Chremete Chremetum, abies abiete abietum, sedes sede sedum, merces mercede mercedum, nubes nube nubum, caedes caede caedum, rupes rupe rupum. </p>
+ <p> omnia is terminata Latina communia neutrum in e uenientia ex se generantia, ut hic et haec docilis hoc docile, ablatiuo singulari i finiuntur additaque um syllaba faciunt genitiuum pluralem. quae si propria fuerint, ablatiuum singularem in e mittent, ut hic et haec cerealis et hoc cereale, ab hoc et ab hac cereali, horum et harum cerealium, hic uero Cerealis ab hoc Cereale; sic et agilis amabilis uitalis et siqua talia. huic regulae subicientur et quae a masculinis in ter exeuntibus feminino genere tris syllaba terminantur, equester equestris, paluster palustris, equestri equestrium, palustri palustrium. </p>
+  <p> omnia is terminata Latina, seu communis generis sine neutro seu cuiuslibet alterius generis, eundem habentia genitiuum nominatiuo <milestone unit="page" n="p. 11 Passalacqua" /> suo, ablatiuo singulari modo e littera finiuntur eaque in um conuersa faciunt genitiuum pluralem, ut hic et haec canis ab hoc et ab hac cane horum et harum canum, hic et haec iuuenis ab hoc <supplied>et ab hac</supplied> iuuene iuuenum, hic panis ab hoc pane horum panum (inter quae excipiuntur hic ignis igne ignium, nauis naue nauium, orbis orbe orbium, finis fine finium, crinis crine crinium); modo i, et addita um faciunt genitiuum pluralem, haec puppis ab hac puppi harum puppium, turris ab hac turri turrium, securis ab hac securi securium, hic Liris ab hoc Liri, Fabaris ab hoc Fabari, Tiberis ab hoc Tiberi, et, ut dicit Plinius Secundus in libris <hi rend="italic">dubii sermonis</hi>, hic salis ab hoc sali. quorum etiam accusatiui, praeter salis, contra propriam tertiae declinationis finalitatem non in em, sed in im syllabam ueniunt: hanc puppim, hanc turrim, hanc securim, hanc restim, hunc Lirim, hunc Fabarim, hunc Tiberim. similiter et funis ab hoc funi horum funium, accusatiuo tamen per em, non, ut supra dictum, per im elato. attamen et ab hac puppe et ab hac turre et ab hoc fune et ab hoc sale dicimus. omnia is terminata, quae in genitiuo singulari crescunt, ablatiuo singulari e finiuntur eaque in um conuersa faciunt genitiuum pluralem, ut hic cinis cineris cinere cinerum, puluis pulueris puluere puluerum, cuspis cuspidis cuspide cuspidum, cassis cassidis casside cassidum, Samnis Samnite Samnitum, licet Sallustius Samnitium dixerit. excipitur unum lis litis lite litium, non litum. omnia is terminata Graeca, seu masculina seu feminina fuerint, ablatiuo singulari e finiuntur eaque in um conuersa reddunt ex se genitiuum pluralem, ut Paris Paride Paridum, Daphnis Daphnide Daphnidum, Lais Laide Laidum, Thais Thaide Thaidum. </p>
+ <p> omnia in os desinentia Latina, seu masculina seu feminina uel communia, ablatiuo casu singulari e finiuntur eaque in um conuersa faciunt genitiuum pluralem, ut custos custode custodum, flos flore florum, nepos nepote nepotum. neutra omnino duo sunt quae in os ueniant, alterum producte alterum correpte, ut os oris ori os ab ore ora orum oribus, item os ossis ossi os ab osse ossa ossuum ossibus. </p>
+  <p> in os desinentia Graeca, si crescant in genitiuo singulari, supra dictae regulae seruient, ut Eros Erotis Erote Erotum, heros herois heroe <milestone unit="page" n="p. 12 Passalacqua" /> heroum; si non crescant, magis propriae regulae quam Latinae subiacebunt, ut Peneleos Penelei seu Peneleo, Androgeos Androgei seu Androgeo: <quote type="poetry">«primusque Coroebus / Penelei dextra»</quote> aut, ut alii tradiderunt, Peneleo; item <quote type="poetry">«in foribus letum Androgei»</quote> aut, ut aliis placet, Androgeo. magis tunc secundae quam tertiae declinationis erunt huius modi nomina cum ad Latinam venerint regulam. </p>
+ <p> omnia us terminata Latina, masculina aut feminina, communia seu neutra, ablatiuo singulari e finientur eaque in um conuersa facient genitiuum pluralem, ut mus mure murum, palus palude paludum, laus laude laudum, Venus Venere Venerum, crus crure crurum, pectus pectore pectorum, uellus uellere uellerum, grus grue gruum, uetus uetere ueterum. nullum excipitur omnino. quin immo etiam Graeca, cum huius erint declinationis, eidem regulae subiacebunt, Oedipus Oedipode Oedipodum, Melampus Melampode Melampodum. </p>
+ <p> omnia nomina, quae b consonantem ante s semiuocalem habebunt et monosyllaba erunt, et ablatiuo e finientur eaque in i conuersa et addita um syllaba facient genitiuum pluralem, ut haec trabs ab hac trabe harum trabium, haec plebs ab hac plebe harum plebium, si tamen in pluralem numerum flectitur, haec urbs ab hac urbe harum urbium, haec scrobs ab hac scrobe harum scrobium. et uniuersa haec quattuor erunt supra dicta, quamuis quidam his adnumerent nubs corbs orbs, non inabsurde meo iudiciolo, cum tanta auctorum aduersentur exempla <supplied>in</supplied> quibus hic corbis et hic orbis et haec nubes legimus. nam de scobis nominatiuo dubitatur, an haec scobs et non magis haec scobis habeat nominatiuum suum. </p>
+  <milestone unit="page" n="p. 13 Passalacqua" />
+ <p> item omnia nomina, quae n consonantem ante s semiuocalem habebunt nec erunt communia, et ablatiuo casu singulari e finientur et ea in i conuersa et addita um facient genitiuum pluralem, ut mens mente mentium, dens dente dentium, mons monte montium, fons fonte fontium, frons fronte frontium, pons ponte pontium. si omnis generis fuerint, ablatiuo singulari et e et i terminabuntur et aut e in i conuersa aut i manente et addita um syllaba facient genitiuum pluralem duplici modo, ut hic et haec et hoc prudens, ab hoc et ab hac prudente et prudenti, horum et harum prudentum et prudentium; similiter et participia. ubi p aut m antecesserit s semiuocalem, ablatiuo singulari e finientur eaque inum conuersa genitiuus erit pluralis, ut haec daps ab hac dape harum dapum, hic adeps ab hoc adipe horum adipum, haec ops ab hac ope harum opum, haec stips ab hac stipe harum stipum, haec stirps ab hac stirpe harum stirpum, haec hiems ab hac hieme harum hiemum. </p>
+ <p> excipiemus ea quae sunt omnis generis, ut hic et haec et hoc praeceps biceps triceps; facient enim ab hoc et ab hac praecipiti bicipiti tricipiti, horum et harum praecipitium bicipitium tricipitium, et ab hoc praecipite bicipite tricipite, horum et harum praecipitum bicipitum tricipitum; similiter et hic et haec et hoc particeps, ab hoc participe et ab hoc participi, horum et harum participum et participium. ubi r antecesserit, et ablatiuo e finientur et ea in i commutata et addita um fiet genitiuus pluralis, ut haec ars ab hac arte harum artium, pars parte partium, sors sorte sortium, fors forte fortium, Mars Marte Martium, si in pluralem numerum aut hoc aut illud flectitur. </p>
+  <p> omnia x littera terminata quacumque antecedente uocali seu consonante, nisi trium generum fuerint, id est eius quod omne dicitur, ablatiuum singularem e finient eaque modo in i <supplied>commutata</supplied> et addita um facient genitiuum pluralem, ut fax falx lanx, face <milestone unit="page" n="p. 14 Passalacqua" /> facium, falce falcium, lance lancium, nix niue niuium; modo in um tantum conuersa eundem casum creabunt, ut rex rege regum, lex lege legum, grex grege gregum, salix salice salicum, cicatrix cicatrice cicatricum, calix calice calicum. si uero trium generum fuerint, omni modo et ablatiuo i finientur et addita um syllaba facient genitiuum pluralem, ut hic et haec et hoc fallax, ab hoc et ab hac fallaci, horum et harum fallacium, hic et haec et hoc felix, ab hoc et ab hac felici, horum et harum felicium, uelox ueloci uelocium, atrox atroci atrocium, trux truci trucium; Felix, quando proprium erit, ab hoc Felice per e non per i faciet ablatiuum, sicut et Iuuenalis Martialis Vitalis, ab hoc Iuuenale Martiale Vitale et siqua similia. </p>
+ <p> haec fere sunt in ablatiuo tertiae declinationis quae ad fixas et certas regulas redigi possunt; si quid secus repertum fuerit, auctoritati potius et consuetudini uel euphoniae quam rationi, quae ab illis superatur, adtribues. </p>
+ <p> quarta declinatio omni modo addita um ablatiuo singulari faciet genitiuum pluralem, ut curru curruum manu manuum. qui et ipse aliquotiens in carmine <foreign xml:lang="grc">συγκοπὴν</foreign> patitur, ut est <quote type="poetry">«ille manum patiens»</quote> pro manuum, et illud <quote type="poetry">«quae gratia currum / armorumque fuit uiuis»</quote> pro curruum sine dubio, quia infertur <quote type="poetry">«armorumque fuit»</quote>. </p>
+ <p> quinta declinatio et ipsa addita rum ablatiuo singulari casum faciet saepe dictum ut ab hac re harum rerum, ab hac acie acierum; nisi quod interdum apud antiquos in his quae es ultimam nominatiui singularis puram habuerint r littera ablatiuo additae syllabae subducitur et facit genitiuum pluralem per eum syllabas ut specieum pro specierum, facieum pro facierum; sed modo non utimur hac enuntiatione. </p>
+  <p> item tertiae quartae quintae declinationum datiuus pluralis bus syllaba terminatur, sed in tertia et quarta i littera antecedente, <milestone unit="page" n="p. 15 Passalacqua" /> ut patribus hominibus legibus urbibus praetoribus fluctibus curribus manibus porticibus casibus, praeter pauca utriusque <del>tertiae quartae</del> declinationis, quae discretionis causa uel archaismi i litteram in u conuertunt ut partubus arcubus artubus. nam partes partibus, partus uero partubus; arces arcibus, arcus uero arcubus; artes artibus, artus uero artubus facient; item <foreign xml:lang="grc">τῷ ἀρχαϊσμῷ</foreign> lacus lacubus; item in tertia declinatione boues boum bubus. item et quae neque i neque u sed o praemittunt bus syllabae, ut duo duobus, ambo ambobus, quae tamen et<foreign xml:lang="grc"> ἀνώμαλα</foreign> sunt ac sola reperiuntur. </p>
+ <p> in quinta uero declinatione e producta semper antecedente, ut rebus spebus diebus aciebus. </p>
+ <p> 
+ <hi rend="bold">exempla declinandorum nominum per singulas formas</hi>
+</p> 
+<p>declinationis primae, generis masculini, nominatiuus hic poeta huius poetae huic poetae hunc poetam o poeta ab hoc poeta, et pluraliter hi poetae horum poetarum his poetis hos poetas o poetae ab his poetis; generis feminini, numeri singularis, haec rosa huius rosae huic rosae hanc rosam o rosa ab hac rosa, hae rosae harum rosarum his rosis has rosas o rosae ab his rosis; generis communis, hic et haec aduena huius aduenae huic aduenae hunc et hanc aduenam o aduena ab hoc et ab hac aduena, et pluraliter hi et hae aduenae horum et harum aduenarum his aduenis hos et has aduenas o aduenae ab his aduenis. </p>
+  <p> formae secundae, generis masculini, nominatiuus hic bonus huius boni huic bono hunc bonum o bone ab hoc bono, et pluraliter hi boni horum bonorum his bonis hos bonos o boni ab his bonis; generis feminini, numeri singularis haec pinus huius pini huic pino hanc pinum o pine ab hac pino, et pluraliter nominatiuus hae pini harum pinorum his pinis has pinos o pini ab his pinis; generis neutri, numeri singularis, hoc templum huius templi huic templo hoc <milestone unit="page" n="p. 16 Passalacqua" /> templum o templum ab hoc templo, et pluraliter haec templa horum templorum his templis haec templa o templa ab his templis. </p>
+ <p> formae tertiae, generis masculini, nominatiuus hic rex huius regis huic regi hunc regem o rex ab hoc rege, et pluraliter nominatiuus hi reges horum regum his regibus hos reges o reges ab his regibus; generis feminini, numeri singularis, haec frux huius frugis huic frugi hanc frugem o frux ab hac fruge, et pluraliter hae fruges harum frugum his frugibus has fruges o fruges ab his frugibus; generis neutri, numeri singularis, nominatiuus hoc opus huius operis huic operi hoc opus o opus ab hoc opere, et pluraliter haec opera horum operum his operibus haec opera o opera ab his operibus; generis communis hic et haec sacerdos huius sacerdotis huic sacerdoti hunc et hanc sacerdotem o sacerdos ab hoc et ab hac sacerdote, et pluraliter hi et hae sacerdotes horum et harum sacerdotum his sacerdotibus hos et has sacerdotes o sacerdotes ab his sacerdotibus; generis omnis, numeri singularis, nominatiuus hic et haec et hoc felix huius felicis huic felici hunc et hanc felicem et hoc felix uocatiuus o felix ablatiuus ab hoc et ab hac et ab hoc felici, et pluraliter hi et hae felices et haec felicia horum et harum et horum felicium his felicibus hos et has felices et haec felicia o felices et o felicia ablatiuus ab his felicibus. </p>
+ <p> formae quartae, generis masculini, nominatiuus hic currus huius currus huic currui hunc currum o currus ab hoc curru, et pluraliter hi currus horum curruum his curribus hos currus o currus ab his curribus; generis feminini, numeri singularis, haec manus huius manus huic manui hanc manum o manus ab hac manu, et pluraliter hae manus harum manuum his manibus has manus o manus ab his manibus: generis neutri, numeri singularis, nominatiuus hoc genu huius genu huic genu hoc genu o genu ab hoc genu, et pluraliter haec genua horum genuum his genibus haec genua o genua ab his genibus. haec antiqui etiam singulari numero sic ut masculina et feminina declinabant dicentes huius genus et huius cornus et huic genui huic cornui. </p>
+  <milestone unit="page" n="p. 17 Passalacqua" />
+ <p> unde et Lucanus <quote type="poetry">«cornus tibi cura sinistri, / Lentule, cum prima, quae tum fuit, optima belli / et quarta legione datur»</quote>, et Liuius ubique in <hi rend="italic">historia</hi> ; posteritas inter monoclita posuit. </p>
+ <p> formae quintae, generis masculini, nominatiuus hic dies huius diei huic diei hunc diem o dies ab hoc die, et pluraliter nominatiuus hi dies horum dierum his diebus hos dies o dies ab his diebus; generis feminini, numeri singularis, nominatiuus haec res huius rei huic rei hanc rem o res ab hac re, et pluraliter hae res harum rerum his rebus has res o res ab his rebus. horum nominum genitiuus et datiuus singularis e paenultimam litteram modo productam modo correptam habent: productam, cum es syllaba nominatiui casus singularis pura fuerit, id est non praecedentem habuerit consonantem, ut dies diei acies aciei, correptam, cum praecesserit consonans, ut res rei spes spei. </p>
+ </div>
+ <div type="section">
+ <head>de pronomine</head>
+ <p>
+ <hi rend="bold"> de pronomine</hi>
+ </p>
+  <p> uniuersorum pronominum secundum Latinos generalis trina diuisio est. aut enim finita sunt pronomina aut minus quam finita aut infinita. rursus finitorum alia sunt principalia, alia deriuatiua: finita principalia tria, ego tu ille; finita deriuatiua quinque, numero singulari meus tuus suus, numero plurali noster uester, horumque feminina scilicet et neutra. minus quam finita sex, iste ipse hic is idem sui, item cum suis femininis et neutris. ex quibus idem et masculini et neutri generis est; sed in masculino i producitur, in neutro corripitur. sui casus habet quattuor tantum, genitiuum datiuum accusatiuum ablatiuum, genitiuum sui, datiuum sibi, accusatiuum <milestone unit="page" n="p. 18 Passalacqua" /> se, ablatiuum a se; et est omnis generis numeri utriusque. infinita septem, quis qualis talis quantus tantus quotus totus, cum suis uidelicet femininis et neutris. his addunt quidam quot et tot, ex quibus quotus et totus facta sunt, sicut a quis cuias et a noster nostras, a uester uestras, cuiatis nostratis uestratis, quae Graeci <foreign xml:lang="grc">ποδαπός, ἡμεδαπός, ὑμεδαπός</foreign> dicunt. </p>
+ <p> quae ex pronominibus casum uocatiuum recipiunt? finitum principale secundae personae merito; ad hanc enim a prima dirigitur sermo profectus, tu, ut <quote type="poetry">«tu quoque litoribus nostris, Aeneia nutrix, / aeternam moriens famam, Caieta, dedisti»</quote>. </p>
+ <p> item finita deriuatiua a prima persona uenientia, quae quamuis a prima deducantur, secundae tamen obtinent locum, ut ad eas quoque iure sermo profectus dirigatur a prima (nam in his quae ex secunda nascuntur * de his sermo non ad eas dirigitur), o mi uel o meus o mea o meum, o noster o nostra o nostrum: Terentius <quote type="poetry">«mi Pamphile»</quote>; <quote type="poetry">«mi Phaedria»</quote>; Vergilius <quote type="poetry">«proice tela manu, sanguis meus»</quote>; Terentius <quote type="poetry">«mea Glycerium, inquit, cur te is perditum?»</quote>; item alibi <quote type="poetry">«Thais mea / meum sauium»</quote>; alibi <quote type="poetry">«o noster Chreme»</quote>. </p>
+  <p> quare, cum ille illa illud et iste ista istud neutra sua per d litteram faciant, ipse ipsa ipsum non per d sed per m litteram facit? <milestone unit="page" n="p. 19 Passalacqua" /> quia apud antiquos non solum ipse sed etiam ipsus dicebatur et sicut meus mea meum ita ipsus ipsa ipsum fecit non ipsud. </p>
+ <p> quare ablatiuo casu dupliciter a quo uel a qui et a qua uel a qui, item datiuo plurali quis uel quibus, a quis uel a quibus dicimus? quoniam apud antiquos non solum qui uiri, puta qui iudices, sed etiam ques uiri, ques iudices, nec solum quae feminae sed etiam ques feminae dicebatur, ut iuxta regulam secundae et tertiae declinationis a quo quidem quis uiris, a qui uero quibus uiris merito fiat: <quote type="poetry">«quis ante ora patrum»</quote> et <quote type="poetry">«quis neque mos neque cultus erat»</quote>. </p>
+ <p> nomina similia pronominibus alius ullus nullus unus totus alter alteruter uter uterque neuter. horum feminina ac neutra genitiuum ac datiuum casus singulares eosdem habent quos masculina, similiter ut pronomina, unde etiam similia his putantur: alia alius alii, ulla ullius ulli, nulla nullius nulli, una unius uni, tota totius toti, altera alterius alteri, alterutra alterutrius alterutri, utra utrius utri, utraque utriusque utrique, neutra neutrius neutri; similiter aliud alius alii, ullum ullius ulli, nullum nullius nulli, unum unius uni, totum totius toti, alterum alterius alteri, alterutrum alterutrius alterutri et cetera. </p>
+ </div>
+ </body>
+ </text>
+</TEI>
